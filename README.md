@@ -1,6 +1,6 @@
-# Deep Learning (PyTorch)
+# Deep Learning (PyTorch) - ND101 v7
 
-This repository contains material related to Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101). It consists of a bunch of tutorial notebooks for various deep learning topics. In most cases, the notebooks lead you through implementing models such as convolutional networks, recurrent networks, and GANs. There are other topics covered such as weight initialization and batch normalization.
+This repository contains material related to Udacity's [Deep Learning v7 Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101). It consists of a bunch of tutorial notebooks for various deep learning topics. In most cases, the notebooks lead you through implementing models such as convolutional networks, recurrent networks, and GANs. There are other topics covered such as weight initialization and batch normalization.
 
 There are also notebooks used as projects for the Nanodegree program. In the program itself, the projects are reviewed by real people (Udacity reviewers), but the starting code is available here, as well.
 
@@ -24,7 +24,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 ### Recurrent Neural Networks
 
-* [Intro to Recurrent Networks (Time series & Character-level RNN)](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/recurrent-neural-networks): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text; learn how tom implement these in PyTorch for a variety of tasks.
+* [Intro to Recurrent Networks (Time series & Character-level RNN)](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/recurrent-neural-networks): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text; learn how to implement these in PyTorch for a variety of tasks.
 * [Embeddings (Word2Vec)](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/word2vec-embeddings): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
 * [Sentiment Analysis RNN](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/sentiment-rnn): Implement a recurrent neural network that can predict if the text of a moview review is positive or negative.
 * [Attention](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/attention): Implement attention and apply it to annotation vectors.
@@ -92,9 +92,9 @@ Using Anaconda consists of the following:
 
 **Install** [miniconda](http://conda.pydata.org/miniconda.html) on your machine. Detailed instructions:
 
-- **Linux:** http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
-- **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
-- **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
+- **Linux:** https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+- **Mac:** https://conda.io/projects/conda/en/latest/user-guide/install/macos.html
+- **Windows:** https://conda.io/projects/conda/en/latest/user-guide/install/windows.html
 
 ## 2. Create and Activate the Environment
 
@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
 
-Noe, assuming your `deep-learning` environment is still activated, you can navigate to the main repo and start looking at the notebooks:
+Now, assuming your `deep-learning` environment is still activated, you can navigate to the main repo and start looking at the notebooks:
 
 ```
 cd
